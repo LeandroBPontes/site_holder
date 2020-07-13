@@ -1,0 +1,150 @@
+html, body, #home{
+	height: 100%;
+	overflow-x: hidden;
+}
+
+
+body{
+	background: #white;
+}
+nav.navbar-transparente {
+	padding: 15px 0;
+	background: rgba(0,0,0,0.6);
+}
+
+h5{
+	color: #a0a0a0;
+
+}
+
+/*sobrescrevendo a cor dos links, é necessário inspecionar as classes no chrome
+  abre o index no chrome, clica onde quer alterar, inspecionar e terá as classes em cima daquele conteudo
+*/
+.navbar-light .navbar-nav .nav-link{
+	color: white;
+}
+
+.navbar-light .navbar-nav .nav-link:hover{
+	color: #9bf0e1;
+}
+
+/
+* inspecionei o ICONE dentro do botão, cliquei em styles e depois na parte do icone
+   ele me mostrou as classes abaixo e utilizei no css para alterá-las
+*/
+.navbar-light .navbar-toggler {
+    color: rgba(255,255,255,.5);
+    border-color: rgba(255,255,255,.5);
+}
+
+/*------------------------ FIM TOPO ------------------------------*/
+/*------------------------ CONTEUDOS ------------------------------*/
+#home_blog{
+	background: #00b6e9;
+	text-align: center;
+	color: white;
+}
+#home_blog h1{
+	font-size: 3.5em;
+	margin-top: 100px;
+}
+#home_blog p{
+	font-size: 2em;
+}
+.sobreposta{
+	
+	height: 200px;
+	border: 3px solid #00b6e2;
+	margin-bottom: 50px;
+	margin-top: 50px;
+}
+
+.controle_form{
+	width:400px;
+}
+.card{
+	margin: 10px;
+}
+/*	RODAPÉ
+-----------------------------*/
+footer{
+	background: #000;
+	padding: 50px 0px 20px 0px;
+	position: relative;
+}
+footer h4{
+	color: #919496;
+	font-size: 0.8em;
+	text-transform: uppercase;
+}
+
+footer .navbar-nav a {
+	color: white;
+	font-size: 0.8em;
+}
+footer .navbar-nav a:hover{
+	color: #9bf0e1;
+	text-decoration: none;
+}
+footer ul{
+	list-style: none;
+}
+footer ul li {
+	float: right;
+	margin: 0 5px;
+}
+
+/* Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) { 
+
+	.navbar-nav{
+		margin-bottom: 20px;
+	}
+	
+	.controle_form{
+		width: 100%;
+		margin-left: 30px;
+	}
+	.botao_principal{
+		margin-left: 60px;
+	}
+	
+	.sobreposta{
+		margin-top: 0px;
+	}
+	#home_blog{
+		height: 600px;
+	}
+	#home_blog h1{
+	font-size: 2em;
+	margin-top: 0px;
+}
+	#home_blog p{
+	font-size: 1.5em;
+	
+}
+
+}
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px)  { 
+	
+	h1{
+		font-size: 1px;
+
+	}
+}
+
+	/*------------------------CONFIGURAÇÕES DE RESPONSIVIDADE ------------------------------*/
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) { 
+	h1{ font-size: 4em; }
+	
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) { h1{ font-size: 5em; } }
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) { h1{ font-size: 6em; } }
