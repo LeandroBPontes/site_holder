@@ -40,10 +40,7 @@
           <div class="collapse navbar-collapse" id="nav-principal">
               <ul class="navbar-nav ml-auto">
                   <li class="nav-item">
-                      <a href="index.html" class="nav-link">Home</a>  
-                  </li>
-                  <li class="nav-item">
-                      <a href="servicos.html" class="nav-link">Serviços</a>  
+                      <a href="index.php" class="nav-link">Home</a>  
                   </li>
                   <li class="nav-item">
                       <a href="#" class="nav-link">Cursos</a>  
@@ -70,16 +67,16 @@
               <div class="col-md-6"  >
                 <p> Cadastre-se e receba com exclusividade!</p>
              </div>
-          <div class="m-1 ml-3"><!-- class capa está no css para centralizar o conteudo-->
+          <div class="m-1"><!-- class capa está no css para centralizar o conteudo-->
                 <form action= "cadastrar_usuarios.php" method="POST" enctype="multipart/form-data" >
-                <input type="text" name="nome" class="form-control form-control-md controle_form mb-2 justify-content-center-md"  placeholder="Nome">
-                <input type="email" name="email" class="form-control form-control-md controle_form mb-2 justify-content-center-md" placeholder="E-mail">
-                <input type="submit" value="Cadastrar" class="btn btn-lg btn-outline-dark mt-3 botao_principal justify-content-center-md">
+                <input type="text" name="nome" class="form-control form-control-md controle_form mb-2 justify-content-center-md ml-5"  placeholder="Nome">
+                <input type="email" name="email" class="form-control form-control-md controle_form mb-2 justify-content-center-md ml-5" placeholder="E-mail">
+                <input type="submit" value="Cadastrar" class="btn btn-lg btn-outline-light mt-3 botao_principal justify-content-center-md ml-5">
                 </form>
                 <div class="m-2 justify-content-center-md">
-                  <img src="img/whatsapp.png" >
-                  <img src="img/facebook_icone.png" >
-                  <img src="img/instagram_icone.png" >
+                   <a href="#"><img src="img/whatsapp.png" class="ml-5"> </a>
+                 <a href="#"> <img src="img/facebook_icone.png"> </a>
+                 <a href="#"> <img src="img/instagram_icone.png"> </a>
                 </div>
                 </div>
               </div>

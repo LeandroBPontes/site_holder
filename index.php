@@ -32,7 +32,7 @@
       <nav class="navbar navbar-expand-md navbar-light fixed-top navbar-transparente ">
         <div class="container">
           <a href="index.html" class="navbar-brand">
-            <h4 class="disp_movel"> <img src="img/icone.png" class="img-fluid"> <span style="font-size: 20px;"> | Holder do Tempo </span></h4>
+            <h4 class="disp_movel"> <img src="img/icone.png" class="img-fluid"> <span style="font-size: 20px;"> | Holder do Tempo </span> </h4>
           </a>
           <button class="navbar-toggler" data-toggle="collapse" data-target="#nav-principal">
             <i class="fas fa-bars text-white"></i>
@@ -40,17 +40,15 @@
 
           <div class="collapse navbar-collapse " id="nav-principal">
               <ul class="navbar-nav  margem">
+                  
                   <li class="nav-item">
-                      <a href="index.html" class="nav-link">Home</a>  
-                  </li>
-                  <li class="nav-item">
-                      <a href="servicos.html" class="nav-link">Serviços</a>  
+                      <a href="#home" class="nav-link">Serviços</a>  
                   </li>
                   <li class="nav-item">
                       <a href="#servicos" class="nav-link">Cursos</a>  
                   </li>
                   <li class="nav-item">
-                      <a href="blog.html" class="nav-link">Blog</a>  
+                      <a href="blog.php" class="nav-link">Blog</a>  
                   </li>
 
           </div>

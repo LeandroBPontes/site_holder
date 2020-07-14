@@ -10,6 +10,7 @@ body{
 nav.navbar-transparente {
 	padding: 15px 0;
 	background: rgba(0,0,0,0.6);
+
 }
 
 h5{
@@ -54,7 +55,7 @@ h5{
 .sobreposta{
 	
 	height: 200px;
-	border: 3px solid #00b6e2;
+	
 	margin-bottom: 50px;
 	margin-top: 50px;
 }
@@ -103,10 +104,10 @@ footer ul li {
 	
 	.controle_form{
 		width: 100%;
-		margin-left: 30px;
+		margin-left: 50px;
 	}
 	.botao_principal{
-		margin-left: 60px;
+		margin-left: 90px;
 	}
 	
 	.sobreposta{
